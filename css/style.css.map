@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,EAAE,GCAF,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CAAG;;AAE7B,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;CAAG",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CAAG;;AAE7B,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;CAAG;;ACHxC,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,IAAI;CAAG",
     "sources": [
         "../sass/style.sass",
-        "../sass/_settings.sass"
+        "../sass/_settings.sass",
+        "../sass/blocks/_header.sass"
     ],
     "names": [],
     "file": "style.css"
