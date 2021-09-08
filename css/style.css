@@ -4,9 +4,82 @@
 
 body {
   font-family: 'Mulish', sans-serif;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
 .header {
   color: blue;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header_search {
+  margin-right: auto;
+  margin-right: 108px;
+}
+
+.search {
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  position: relative;
+}
+
+.search__input {
+  width: 350px;
+  border-radius: 6px;
+  height: 40px;
+  padding-left: 23px;
+  background-color: #f5fafe;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+}
+
+.search__button {
+  position: absolute;
+  width: 65px;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  height: 100%;
+  right: 0;
+  background-color: #ec1f46;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.user__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user__name {
+  margin-left: 18px;
+  font-size: 14px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  line-height: 18px;
 }
 /*# sourceMappingURL=style.css.map */
