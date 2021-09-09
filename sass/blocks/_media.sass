@@ -1,0 +1,39 @@
+@media (max-width: 1200px)
+    .container
+        max-width: 960px
+
+@media (max-width: 992px)
+    .container
+        max-width: 760px
+    .header
+        &__search
+            margin-left: auto
+            max-width: 340px
+
+@media (max-width: 768px)
+    .container
+        max-width: 576px
+        width: 92%
+    .header
+        &-menu
+            display: none
+    .user
+        &__avatar, &__name
+            display: none
+    .search
+        &__input, &__button
+            display: none
+    .gamburger
+        display: flex
+        align-items: center
+        flex-direction: column
+        justify-content: space-between
+        width: 16px
+        height: 11px
+        border: none
+        cursor: pointer
+        background-color: #fff
+        &__line
+            width: 16px
+            height: 1px
+            background-color: $text-color
