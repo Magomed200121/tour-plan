@@ -4,11 +4,15 @@
         display: flex
         justify-content: space-between
         align-items: center
+        padding-bottom: 20px
     &-name
         margin: 5px 0px
         font-weight: bold
         font-size: 24px
         line-height: 30px
+    &-grid
+        display: flex
+        justify-content: space-between
 
 .grand
     display: flex
@@ -44,3 +48,114 @@
         font-weight: bold
         font-size: 14px
         line-height: 18px
+.swiper
+    width: 728px
+    height: 450px
+    position: relative
+    border-radius: 6px
+    margin-left: 0
+    &::before
+        content: ''
+        width: 100%
+        position: absolute
+        height: 100%
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        z-index: 10
+        background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%)
+
+.slider
+    width: 728px
+    &-button
+        position: absolute
+        width: 30px
+        height: 30px
+        z-index: 99
+        top: 50%
+        transform: translateY(-50%)
+        border: none
+        background-repeat: no-repeat
+        background-position: center
+        background-color: transparent
+        cursor: pointer
+        &_next
+            right: 18px
+            background-image: url(../img/aarow-next.svg)
+        &_prev
+            left: 18px
+
+
+
+.booking
+    border-radius: 6px
+    width: 350px
+    padding: 28px
+    height: 210px
+    background-color: $dark
+    color: $light
+    &__info
+        display: flex
+        justify-content: space-between
+    &__price
+        display: flex
+        flex-direction: column
+        font-style: normal
+        font-weight: normal
+        font-size: 10px
+        line-height: 14px
+    &__pricetag
+        font-style: normal
+        font-weight: 800
+        font-size: 24px
+        line-height: 33px
+    &__room
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 16px
+    &-room__description
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 16px
+    &-room__text
+        display: flex
+        align-items: center
+        justify-content: space-between
+        min-width: 80px
+    &__button
+        width: 100%
+        min-height: 45px
+        border: none
+        background-color: $primary
+        border-radius: 4px
+        color: #fff
+        margin-top: 17px
+
+.call-center
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__text
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        line-height: 25px
+        margin-top: 12px
+    &__num
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        line-height: 25px
+    &__number
+        text-decoration: none
+        color: $light
+
+.map
+    border-radius: 12px
+    padding-top: 27px
+    width: 350px
+    height: 213px
+    border-radius: 4px

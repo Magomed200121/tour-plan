@@ -190,6 +190,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .hotel-name {
@@ -197,6 +198,11 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
+}
+
+.hotel-grid {
+  display: flex;
+  justify-content: space-between;
 }
 
 .grand {
@@ -240,5 +246,148 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+}
+
+.swiper {
+  width: 728px;
+  height: 450px;
+  position: relative;
+  border-radius: 6px;
+  margin-left: 0;
+}
+
+.swiper::before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+}
+
+.slider {
+  width: 728px;
+}
+
+.slider-button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 99;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.slider-button_next {
+  right: 18px;
+  background-image: url(../img/aarow-next.svg);
+}
+
+.slider-button_prev {
+  left: 18px;
+}
+
+.booking {
+  border-radius: 6px;
+  width: 350px;
+  padding: 28px;
+  height: 210px;
+  background-color: #0A223D;
+  color: #fff;
+}
+
+.booking__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking__price {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.booking__pricetag {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.booking__room {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.booking-room__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.booking-room__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 80px;
+}
+
+.booking__button {
+  width: 100%;
+  min-height: 45px;
+  border: none;
+  background-color: #ec1f46;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 17px;
+}
+
+.call-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-center__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 12px;
+}
+
+.call-center__num {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.call-center__number {
+  text-decoration: none;
+  color: #fff;
+}
+
+.map {
+  border-radius: 12px;
+  padding-top: 27px;
+  width: 350px;
+  height: 213px;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=style.css.map */
